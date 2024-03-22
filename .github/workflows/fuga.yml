@@ -1,9 +1,8 @@
 name: fuga
 
 on:
-  push:
-    branches:
-      - feature/fuga
+  workflow_dispatch:
+
 
 permissions:
   actions: write
